@@ -8,7 +8,7 @@ from itertools import count
 from collections import OrderedDict, namedtuple
 import os;
 import datetime 
-1
+"""
 current_milli_time = lambda: int(round(time.time() * 1000))
 # The table size is the maximum number of elements in the transposition table.
 TABLE_SIZE = 1e6
@@ -481,8 +481,9 @@ def main():
         #print user board position -> ai
 
         printPosition(pos, board_table_user, getKeyByValue(board_table_ai,119 - move[1]), trainUser);
-
+"""
+def main()
+    print("hello")
 if __name__ == '__main__':
     main()
-
 
